@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/spectrum-darkest.css"/>
+	<title>Template 1a</title>
+	<script src="js/jscolor.js"></script>
+	<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+
+</script>
+</head>
+<body scroll="no" class="spectrum--darkest">
+
+
+<button id="" onclick=""></button>
+
+<div id="previewSection">
+	
+
+
+</div>
+	<script>
+
+function getOS() {
+ 		var userAgent = window.navigator.userAgent,
+ 		platform = window.navigator.platform,
+ 		macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+ 		windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+ 		os = null;
+
+ 		if(macosPlatforms.indexOf(platform) != -1) {
+ 			os = "MAC";
+ 		} else if(windowsPlatforms.indexOf(platform) != -1) {
+ 			os = "WIN";
+ 		}
+ 		return os;
+ 	}
+	
+	</script>	
+	<script src="js/libs/CSInterface.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

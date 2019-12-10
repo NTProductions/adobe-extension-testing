@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: url("Montserrat-Regular.ttf") format('truetype');
+}
+
+* {
+	font-family: Montserrat;
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#logoSection {
+	width: 400px;
+	height: 225px;
+}
+
+#previewSection {
+	width: 400px;
+	height: 355px;
+	display: inline-block;
+}
+
+#mainButton {
+	
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 13px;
+    opacity: 0;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+opacity: 0;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(17, 17, 17, 1); 
+    opacity: 0;
+}
+
+F
+::-webkit-scrollbar-button {
+	height: 10px;
+	width: 13px;
+	background: rgba(70, 70, 70, 1); 
+	opacity: 0;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	width: 13px;
+	opacity: 0;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+	width: 13px;
+	opacity: 0;
+}
