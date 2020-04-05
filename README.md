@@ -1,2 +1,2 @@
-# jsx-extension-arguments
- Get variables back from JSX functions
+# Extension Testing
+ Bare bones extension for tutorial and testing use!
