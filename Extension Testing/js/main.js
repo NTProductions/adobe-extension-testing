@@ -1,7 +1,5 @@
 (function () {
  'use strict';
- var favsList = [];
-  var favsIndices = [];
  var path, slash;
  path = location.href;
 	if(getOS() == "MAC") {
