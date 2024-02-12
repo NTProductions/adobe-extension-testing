@@ -11,6 +11,9 @@
 		path = path.substring(8, path.length - 11);
 	}
 
+	console.log("Start");
+	console.log(path);
+
  }());
 
 function goIntoJSX() {
