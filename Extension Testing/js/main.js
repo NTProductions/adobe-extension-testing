@@ -1,18 +1,16 @@
 (function () {
  'use strict';
- var path, slash;
- path = location.href;
+ var extPath;
+ extPath = location.href;
 	if(getOS() == "MAC") {
-		slash = "/";
-		path = path.substring(0, path.length - 11);
+		extPath = extPath.substring(7, extPath.length - 11);
 	}
 	if(getOS() == "WIN") {
-		slash = "/";
-		path = path.substring(8, path.length - 11);
+		extPath = extPath.substring(8, extPath.length - 11);
 	}
 
 	console.log("Start");
-	console.log(path);
+	console.log(extPath);
 
  }());
 
